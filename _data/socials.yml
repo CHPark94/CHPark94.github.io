@@ -8,4 +8,4 @@ scholar_userid: LbSDlsAAAAAJ         # your Google Scholar user ID (from your pr
 orcid_id: 0000-0003-1240-8508        # your ORCID iD
 linkedin_username: chp0203           # your LinkedIn username (from linkedin.com/in/chp0203)
 github_username: CHPark94            # your GitHub username
-cv_pdf: /assets/pdf/CV_CheolHyunPark.pdf  # uncomment after uploading your CV PDF to assets/pdf/
+cv_pdf: assets/pdf/CV_CheolHyunPark.pdf  # uncomment after uploading your CV PDF to assets/pdf/
