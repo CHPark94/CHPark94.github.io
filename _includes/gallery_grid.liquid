@@ -1,18 +1,20 @@
 {% if site.data.gallery and site.data.gallery.size > 0 %}
 <div class="grid">
   {% for photo in site.data.gallery %}
-    <div class="grid-item">
-      <div class="card hoverable">
-        {%
-          include figure.liquid
-          path=photo.path
-          caption=photo.caption
-          sizes='(min-width: 768px) 250px, 90vw'
-          class='card-img-top'
-          alt=photo.caption
-        %}
+    {% if photo.path %}
+      <div class="grid-item">
+        <div class="card hoverable">
+          {%
+            include figure.liquid
+            path=photo.path
+            caption=photo.caption
+            sizes='(min-width: 768px) 250px, 90vw'
+            class='card-img-top'
+            alt=photo.caption | default: 'Gallery image'
+          %}
+        </div>
       </div>
-    </div>
+    {% endif %}
   {% endfor %}
 </div>
 {% else %}
