@@ -2,15 +2,16 @@
 <div class="grid">
   {% for photo in site.data.gallery %}
     {% if photo.path %}
+      {% assign alt_text = photo.caption | default: 'Gallery image' %}
       <div class="grid-item">
         <div class="card hoverable">
           {%
             include figure.liquid
             path=photo.path
             caption=photo.caption
-            sizes='(min-width: 768px) 250px, 90vw'
-            class='card-img-top'
-            alt=photo.caption | default: 'Gallery image'
+            sizes="(min-width: 768px) 250px, 90vw"
+            class="card-img-top"
+            alt=alt_text
           %}
         </div>
       </div>
