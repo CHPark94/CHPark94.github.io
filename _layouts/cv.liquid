@@ -121,13 +121,14 @@ layout: default
         {% endif %}
 
         <!-- RenderCV Sections - Merge Experience and Volunteer (respect hidden_sections) -->
+        {% assign hidden_sections = site.data.cv_jekyll.hidden_sections | default: cv.hidden_sections %}
         {% assign combined_experience = site.pages | where: 'path', '___empty___' %}
-        {% unless cv.hidden_sections contains 'Experience' %}
+        {% unless hidden_sections contains 'Experience' %}
           {% if cv.sections.Experience %}
             {% assign combined_experience = combined_experience | concat: cv.sections.Experience %}
           {% endif %}
         {% endunless %}
-        {% unless cv.hidden_sections contains 'Volunteer' %}
+        {% unless hidden_sections contains 'Volunteer' %}
           {% if cv.sections.Volunteer %}
             {% assign combined_experience = combined_experience | concat: cv.sections.Volunteer %}
           {% endif %}
@@ -150,6 +151,10 @@ layout: default
 
           {% comment %} Skip Experience and Volunteer as we've already processed them combined {% endcomment %}
           {% if section_title == 'Experience' or section_title == 'Volunteer' %}
+            {% continue %}
+          {% endif %}
+          {% comment %} Skip sections listed in hidden_sections {% endcomment %}
+          {% if hidden_sections contains section_title %}
             {% continue %}
           {% endif %}
 

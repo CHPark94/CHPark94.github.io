@@ -6,14 +6,6 @@ cv:
   image: ""
   summary: PhD Candidate at Sungkyunkwan University researching nanoparticle self-assembly, ceramics, biomaterials, and fracture mechanics.
 
-  # 섹션 이름을 넣으면 CV에 표시하지 않음 (내용은 유지됨)
-  hidden_sections:
-    - Experience
-    - Volunteer
-    - Awards
-    - Certificates
-    - Projects
-
   address:
     street: 19 Hwasan-ro 187beon-gil, Seobu-ro
     city: Suwon

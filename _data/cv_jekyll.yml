@@ -1,0 +1,9 @@
+# Jekyll CV 페이지 전용 설정 (RenderCV 검증 대상 아님)
+# CV에 표시하지 않을 섹션 이름 목록
+hidden_sections:
+  - Experience
+  - Volunteer
+  - Awards
+  - Certificates
+  - Projects
+  - References
