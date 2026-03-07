@@ -5,11 +5,12 @@
         {% assign alt_text = photo.caption | default: 'Gallery image' %}
         <div class="grid-item">
           <div class="card hoverable">
-            {% include figure.liquid
+            {%
+              include figure.liquid
               path=photo.path
               caption=photo.caption
-              sizes="(min-width: 768px) 250px, 90vw"
-              class="card-img-top"
+              sizes='(min-width: 768px) 250px, 90vw'
+              class='card-img-top'
               alt=alt_text
             %}
           </div>

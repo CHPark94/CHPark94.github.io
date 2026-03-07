@@ -121,13 +121,13 @@ layout: default
         {% endif %}
 
         <!-- RenderCV Sections - Merge Experience and Volunteer (respect hidden_sections) -->
-        {% assign combined_experience = site.pages | where: "path", "___empty___" %}
-        {% unless cv.hidden_sections contains "Experience" %}
+        {% assign combined_experience = site.pages | where: 'path', '___empty___' %}
+        {% unless cv.hidden_sections contains 'Experience' %}
           {% if cv.sections.Experience %}
             {% assign combined_experience = combined_experience | concat: cv.sections.Experience %}
           {% endif %}
         {% endunless %}
-        {% unless cv.hidden_sections contains "Volunteer" %}
+        {% unless cv.hidden_sections contains 'Volunteer' %}
           {% if cv.sections.Volunteer %}
             {% assign combined_experience = combined_experience | concat: cv.sections.Volunteer %}
           {% endif %}
