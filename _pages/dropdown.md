@@ -10,6 +10,6 @@ children:
   - title: divider
   - title: blog
     permalink: /blog/
-  - title: 취미
+  - title: Gallery
     permalink: /gallery/
 ---
