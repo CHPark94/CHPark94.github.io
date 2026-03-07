@@ -2,21 +2,20 @@ cv:
   name: Cheol Hyun Park
   label: PhD Candidate
   email: qkrcjfgus@skku.edu
-  location: Suwon, Republic of Korea
+  location: Republic of Korea (ROK)
   image: ""
-  summary: PhD Candidate at Sungkyunkwan University researching nanoparticle self-assembly, ceramics, biomaterials, and fracture mechanics.
+  summary: "PhD Candidate at Sungkyunkwan University researching nanoparticle self-assembly, ceramics, biomaterials, and fracture mechanics."
 
   address:
     street: 19 Hwasan-ro 187beon-gil, Seobu-ro
     city: Suwon
     region: Gyeonggi-do
     postalCode: 16419
-    countryCode: Republic of Korea
 
   sections:
     Education:
       - institution: Sungkyunkwan University
-        location: Suwon, Republic of Korea
+        location: Suwon, ROK
         area: Materials Science and Engineering
         studyType: MS/PhD combined
         start_date: 2020
@@ -25,7 +24,7 @@ cv:
         courses: "Nanoparticle Self-Assembly, Ceramics, Biomaterials, Fracture Mechanics"
 
       - institution: Sungkyunkwan University
-        location: Suwon, Republic of Korea
+        location: Suwon, ROK
         area: Materials Science and Engineering
         studyType: BS
         start_date: 2014
