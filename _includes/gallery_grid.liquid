@@ -1,0 +1,20 @@
+{% if site.data.gallery and site.data.gallery.size > 0 %}
+<div class="grid">
+  {% for photo in site.data.gallery %}
+    <div class="grid-item">
+      <div class="card hoverable">
+        {%
+          include figure.liquid
+          path=photo.path
+          caption=photo.caption
+          sizes="(min-width: 768px) 250px, 90vw"
+          class="card-img-top"
+          alt=photo.caption
+        %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% else %}
+<p class="text-muted">사진을 추가하려면 <code>_data/gallery.yml</code> 파일을 수정하고, 이미지는 <code>assets/img/</code> 폴더에 넣어 주세요.</p>
+{% endif %}
