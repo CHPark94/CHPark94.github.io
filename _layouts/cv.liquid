@@ -120,9 +120,18 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- RenderCV Sections - Merge Experience and Volunteer -->
-        {% comment %} First, combine Experience and Volunteer entries {% endcomment %}
-        {% assign combined_experience = cv.sections.Experience | concat: cv.sections.Volunteer %}
+        <!-- RenderCV Sections - Merge Experience and Volunteer (respect hidden_sections) -->
+        {% assign combined_experience = site.pages | where: "path", "___empty___" %}
+        {% unless cv.hidden_sections contains "Experience" %}
+          {% if cv.sections.Experience %}
+            {% assign combined_experience = combined_experience | concat: cv.sections.Experience %}
+          {% endif %}
+        {% endunless %}
+        {% unless cv.hidden_sections contains "Volunteer" %}
+          {% if cv.sections.Volunteer %}
+            {% assign combined_experience = combined_experience | concat: cv.sections.Volunteer %}
+          {% endif %}
+        {% endunless %}
         {% if combined_experience.size > 0 %}
           <a class="anchor" id="experience"></a>
           <div class="card mt-3 p-3">
