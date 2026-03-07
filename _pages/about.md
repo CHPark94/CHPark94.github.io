@@ -32,7 +32,7 @@ latest_posts:
 I am a PhD candidate in the Department of Materials Science and Engineering at [Sungkyunkwan University (SKKU)](https://www.skku.edu), South Korea.
 My research lies at the intersection of **nanoscience, ceramics, and biomaterials**, with a focus on harnessing nanoparticle self-assembly to design hierarchically structured materials with tailored mechanical and functional properties.
 
-My current work explores how bottom-up fabrication strategies — particularly the directed self-assembly of nanoparticles — can be used to engineer advanced ceramics and biomaterial scaffolds with unprecedented control over microstructure.
+My current work explores how bottom-up fabrication strategies, particularly the directed self-assembly of nanoparticles, can be used to engineer advanced ceramics and biomaterial scaffolds with unprecedented control over microstructure.
 A key aspect of this research involves characterizing and understanding the **fracture mechanics** of these hierarchical architectures, bridging nanoscale design principles to macroscopic structural performance.
 
 I am actively seeking **postdoctoral positions** in materials science, nanoscience, or related fields. Please feel free to reach out via [email](mailto:qkrcjfgus@skku.edu) — I am always happy to discuss research opportunities and collaborations.
