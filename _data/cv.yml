@@ -87,7 +87,7 @@ cv:
         releaseDate: 2023
         url: https://doi.org/10.1021/acsapm.3c00514
 
-      - title: Nanoparticles as next-generation tooth-whitening agents: Progress and perspectives
+      - title: "Nanoparticles as next-generation tooth-whitening agents: Progress and perspectives"
         authors:
           - Kim, Dai-Hwan and Bae, Jina and Heo, Jun Hyuk and Park, Cheol Hyun and Kim, Eun Bi and Lee, Jung Heon
         publisher: ACS Nano
@@ -101,48 +101,48 @@ cv:
         releaseDate: 2022
         url: https://doi.org/10.1016/j.biomaterials.2022.109792
 
-      - title: Biomolecules as green flame retardants: recent progress, challenges, and opportunities
+      - title: "Biomolecules as green flame retardants: recent progress, challenges, and opportunities"
         authors:
           - Jeong, Sun Hwan and Park, Cheol Hyun and Song, Hyewon and Heo, Jun Hyuk and Lee, Jung Heon
         publisher: Journal of Cleaner Production
         releaseDate: 2022
         url: https://doi.org/10.1016/j.jclepro.2022.133241
 
-        - title: Progress and perspectives of metal-ion-substituted hydroxyapatite for bone tissue engineering: comparison with hydroxyapatite
+      - title: "Progress and perspectives of metal-ion-substituted hydroxyapatite for bone tissue engineering: comparison with hydroxyapatite"
         authors:
           - Kim, Si Hyun and Park, Cheol Hyun and Heo, Jun Hyuk and Lee, Jung Heon
         publisher: Journal of the Korean Ceramic Society
         releaseDate: 2022
         url: https://doi.org/10.1166/jkscs.2022.6321
 
-        - title: A multifaceted heat-switching nanofiller: Design of heat dissipation--insulation switching materials above a critical temperature
+      - title: "A multifaceted heat-switching nanofiller: Design of heat dissipation--insulation switching materials above a critical temperature"
         authors:
           - Song, Hyewon and Jeong, Sun Hwan and Park, Cheol Hyun and Kim, Min Jeong and Kim, Hyunlee and Heo, Jun Hyuk and Lee, Jung Heon
         publisher: Chemical Engineering Journal
         releaseDate: 2024
         url: https://doi.org/10.1016/j.cej.2024.154406
-        
-        - title: Monolithic DNApatite: An Elastic Apatite with Sub-Nanometer Scale Organo--Inorganic Structures
+
+      - title: "Monolithic DNApatite: An Elastic Apatite with Sub-Nanometer Scale Organo--Inorganic Structures"
         authors:
           - Lee, Jin Woong and Lee, Byoungsang and Park, Cheol Hyun and Heo, Jun Hyuk and Lee, Tae Yoon and Lee, Dongtak and Bae, Jina and Sundharbaabu, Priyannth Ramasami and Yeom, Won Kyun and Chae, Sudong and others
         publisher: Advanced Materials
         releaseDate: 2024
         url: https://doi.org/10.1002/advs.202406251
-        
-        - title: Simultaneous dyeing, flame-retardant, and antibacterial treatment of fabrics using adenosine triphosphate as a multifunctional agent
+
+      - title: Simultaneous dyeing, flame-retardant, and antibacterial treatment of fabrics using adenosine triphosphate as a multifunctional agent
         authors:
           - Park, Cheol Hyun and Song, Hyewon and Kim, Dai-Hwan and Kim, Junseok and Jeong, Sun Hwan and Rayappan, John Bosco Balaguru and Heo, Jun Hyuk and Lee, Jung Heon
         publisher: Chemical Engineering Journal
         releaseDate: 2025
         url: https://doi.org/10.1016/j.cej.2025.159912
-        
-        - title: Transformative Mechanical and Piezoelectric Properties in Organic--Inorganic Hybrid Materials for Biomedical Applications
+
+      - title: Transformative Mechanical and Piezoelectric Properties in Organic--Inorganic Hybrid Materials for Biomedical Applications
         authors:
           - Cho, Jaewon and Park, Cheol Hyun and Ramasami Sundharbaabu, Priyannth and Ju, Seong-Uk and Shin, Davin and Heo, Jun Hyuk and Kim, Miso and Lee, Jung Heon
         publisher: ACS Nano
         releaseDate: 2025
         url: https://doi.org/10.1021/acsnano.5b08724
-        
+
     Skills:
       - name: Materials Characterization
         icon: fa-solid fa-hashtag
