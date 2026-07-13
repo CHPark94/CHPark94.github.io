@@ -8,8 +8,8 @@ isbn: 9780679772675 # use ISBN to fetch cover (if no `olid` is provided, dashes 
 categories: Drama thriller
 buy_link: https://www.amazon.com/Civil-Action-Jonathan-Harr/dp/0679772677
 started: 2026
-finished:
+finished: 2026
 released: 1995
-stars:
+stars: 
 status: TBD
 ---
