@@ -3,7 +3,7 @@
 # Cover = thumbnail on /gallery/; photos = images shown inside the album page.
 
 albums:
-  - id: Wonju_2026
+  - id: Wonju2026
     title: Wonju, South Korea
     description: Places
     cover: assets/img/gallery/Wonju_South_Korea/Wonju_cover.jpg
@@ -15,7 +15,7 @@ albums:
       # - path: assets/img/gallery/Wonju_South_Korea/Wonju_photo_3.jpg
       #   caption: Caption
 
-  - id: ACS_Fall_2025
+  - id: ACSFall2025
     title: Washington DC, USA
     description: ACS Fall 2025
     cover: assets/img/gallery/ACS_Fall_2025/ACS_cover.jpg

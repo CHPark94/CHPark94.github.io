@@ -4,18 +4,18 @@ layout: page
 {{ content }}
 
 {% if page.collection and page.collection.size > 0 %}
-  {% assign collection = site[page.collection] %}
+  {% assign collection = site[page.collection] | sort: 'started' | reverse %}
   {% if collection and collection.size > 0 %}
-    {% for item in collection reversed %}
+    {% for item in collection %}
       {% assign current_year = item.started | date: '%Y' %}
       {% if current_year != year %}
         {% unless forloop.first %}
-          </ul>
+          </div>
         {% endunless %}
-        <h1 id="y{{item.started | date: "%Y"}}">
+        <h1 id="y{{ item.started | date: '%Y' }}">
           <a href="{{ current_year | prepend: '/books/' | relative_url }}">{{ current_year }}</a>
         </h1>
-        <ul>
+        <div class="bookshelf-year">
           {% assign year = current_year %}
       {% endif %}
 
@@ -42,7 +42,7 @@ layout: page
         </a>
       </figure>
       {% if forloop.last %}
-        </ul>
+        </div>
       {% endif %}
     {% endfor %}
   {% endif %}
