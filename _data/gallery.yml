@@ -16,8 +16,8 @@ albums:
       #   caption: Caption
 
   - id: ACSFall2025
-    title: Washington DC, USA
-    description: ACS Fall 2025
+    title: ACS Fall 2025
+    description: Washington DC, USA
     cover: assets/img/gallery/ACS_Fall_2025/ACS_cover.jpg
     photos:
       - path: assets/img/gallery/ACS_Fall_2025/ACS_photo_1.jpg
