@@ -1,43 +1,36 @@
 cv:
   name: Cheol Hyun Park
-  label: Ph.D.
+  headline: Ph.D.
   email: qkrcjfgus@skku.edu
-  location: Republic of Korea (ROK)
-  image: ""
-  summary: "Nanomaterials, self-assembly, ceramics, biomaterials, and fracture mechanics."
-
-  address:
-    street: 19 Hwasan-ro 187beon-gil, Seobu-ro
-    city: Suwon
-    region: Gyeonggi-do
-    postalCode: 16419
+  location: "19 Hwasan-ro 187beon-gil, Seobu-ro, Suwon, Gyeonggi-do 16419, Republic of Korea"
 
   sections:
+    Summary:
+      - Nanomaterials, self-assembly, ceramics, biomaterials, and fracture mechanics.
+
     Education:
       - institution: Sungkyunkwan University
         location: Suwon, ROK
         area: Materials Science and Engineering
-        studyType: MS/PhD combined
-        start_date: 2020
-        end_date: 2026
-        score: ""
-        courses: "Nanoparticle Self-Assembly, Ceramics, Biomaterials, Fracture Mechanics"
+        degree: MS/PhD combined
+        start_date: "2020"
+        end_date: "2026"
+        highlights:
+          - Nanoparticle Self-Assembly, Ceramics, Biomaterials, Fracture Mechanics
 
       - institution: Sungkyunkwan University
         location: Suwon, ROK
         area: Materials Science and Engineering
-        studyType: BS
-        start_date: 2014
-        end_date: 2020
-        score: ""
-        highlights: ""
+        degree: BS
+        start_date: "2014"
+        end_date: "2020"
 
     Experience:
       - company: Institute for Advanced Study, Princeton University
         position: Professor of Theoretical Physics
         location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
+        start_date: "1933"
+        end_date: "1955"
         summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
         highlights:
           - Relativity
@@ -47,8 +40,8 @@ cv:
       - company: People's Climate March
         position: Lead Organizer
         location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
+        start_date: "2014-04-01"
+        end_date: "2015-07-01"
         summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
         highlights:
           - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
@@ -58,7 +51,7 @@ cv:
       - title: Nobel Prize in Physics
         authors:
           - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
+        date: "1921-11-01"
         awarder: Royal Swedish Academy of Sciences
         url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
         summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
@@ -67,99 +60,95 @@ cv:
       - title: Bioinspired adenosine triphosphate as an “all-in-one” green flame retardant via extremely intumescent char formation
         authors:
           - Jeong, Sun Hwan and Heo, Jun Hyuk and Lee, Jin Woong and Kim, Min Jeong and Park, Cheol Hyun and Lee, Jung Heon
-        publisher: American Chemical Society
-        releaseDate: 2021
+        journal: American Chemical Society
+        date: "2021"
         url: https://doi.org/10.1021/acsami.1c02021
 
       - title: Synergistic adenosine triphosphate/chitosan bio-coatings on polyurethane foam for simultaneously improved flame retardancy and smoke suppression
         authors:
           - Song, Hyewon and Park, Cheol Hyun and Jeong, Sun Hwan and Heo, Jun Hyuk and Lee, Jung Heon
-        publisher: American Chemical Society
-        releaseDate: 2023
+        journal: American Chemical Society
+        date: "2023"
         url: https://doi.org/10.1021/acsapm.3c00514
 
       - title: "Nanoparticles as next-generation tooth-whitening agents: Progress and perspectives"
         authors:
           - Kim, Dai-Hwan and Bae, Jina and Heo, Jun Hyuk and Park, Cheol Hyun and Kim, Eun Bi and Lee, Jung Heon
-        publisher: ACS Nano
-        releaseDate: 2022
+        journal: ACS Nano
+        date: "2022"
         url: https://doi.org/10.1021/acsnano.2c01412
 
       - title: Natural bone-mimicking nanopore-incorporated hydroxyapatite scaffolds for enhanced bone tissue regeneration
         authors:
           - Kim, Chansong and Lee, Jin Woong and Heo, Jun Hyuk and Park, Cheolhyun and Kim, Dai-Hwan and Yi, Gyu Sung and Kang, Ho Chang and Jung, Hyun Suk and Shin, Hyunjung and Lee, Jung Heon
-        publisher: Biomaterials Research
-        releaseDate: 2022
+        journal: Biomaterials Research
+        date: "2022"
         url: https://doi.org/10.1016/j.biomaterials.2022.109792
 
       - title: "Biomolecules as green flame retardants: recent progress, challenges, and opportunities"
         authors:
           - Jeong, Sun Hwan and Park, Cheol Hyun and Song, Hyewon and Heo, Jun Hyuk and Lee, Jung Heon
-        publisher: Journal of Cleaner Production
-        releaseDate: 2022
+        journal: Journal of Cleaner Production
+        date: "2022"
         url: https://doi.org/10.1016/j.jclepro.2022.133241
 
       - title: "Progress and perspectives of metal-ion-substituted hydroxyapatite for bone tissue engineering: comparison with hydroxyapatite"
         authors:
           - Kim, Si Hyun and Park, Cheol Hyun and Heo, Jun Hyuk and Lee, Jung Heon
-        publisher: Journal of the Korean Ceramic Society
-        releaseDate: 2022
+        journal: Journal of the Korean Ceramic Society
+        date: "2022"
         url: https://doi.org/10.1166/jkscs.2022.6321
 
       - title: "A multifaceted heat-switching nanofiller: Design of heat dissipation--insulation switching materials above a critical temperature"
         authors:
           - Song, Hyewon and Jeong, Sun Hwan and Park, Cheol Hyun and Kim, Min Jeong and Kim, Hyunlee and Heo, Jun Hyuk and Lee, Jung Heon
-        publisher: Chemical Engineering Journal
-        releaseDate: 2024
+        journal: Chemical Engineering Journal
+        date: "2024"
         url: https://doi.org/10.1016/j.cej.2024.154406
 
       - title: "Monolithic DNApatite: An Elastic Apatite with Sub-Nanometer Scale Organo--Inorganic Structures"
         authors:
           - Lee, Jin Woong and Lee, Byoungsang and Park, Cheol Hyun and Heo, Jun Hyuk and Lee, Tae Yoon and Lee, Dongtak and Bae, Jina and Sundharbaabu, Priyannth Ramasami and Yeom, Won Kyun and Chae, Sudong and others
-        publisher: Advanced Materials
-        releaseDate: 2024
+        journal: Advanced Materials
+        date: "2024"
         url: https://doi.org/10.1002/advs.202406251
 
       - title: Simultaneous dyeing, flame-retardant, and antibacterial treatment of fabrics using adenosine triphosphate as a multifunctional agent
         authors:
           - Park, Cheol Hyun and Song, Hyewon and Kim, Dai-Hwan and Kim, Junseok and Jeong, Sun Hwan and Rayappan, John Bosco Balaguru and Heo, Jun Hyuk and Lee, Jung Heon
-        publisher: Chemical Engineering Journal
-        releaseDate: 2025
+        journal: Chemical Engineering Journal
+        date: "2025"
         url: https://doi.org/10.1016/j.cej.2025.159912
 
       - title: Transformative Mechanical and Piezoelectric Properties in Organic--Inorganic Hybrid Materials for Biomedical Applications
         authors:
           - Cho, Jaewon and Park, Cheol Hyun and Ramasami Sundharbaabu, Priyannth and Ju, Seong-Uk and Shin, Davin and Heo, Jun Hyuk and Kim, Miso and Lee, Jung Heon
-        publisher: ACS Nano
-        releaseDate: 2025
+        journal: ACS Nano
+        date: "2025"
         url: https://doi.org/10.1021/acsnano.5b08724
 
     Skills:
-      - name: Materials Characterization
-        icon: fa-solid fa-hashtag
-        keywords: "Electron Microscopy,Indentation method, Universal tensil machine, X-ray diffraction, X-ray fluorescence, X-ray absorption spectroscopy"
+      - label: Materials Characterization
+        details: Electron Microscopy, Indentation method, Universal tensile machine, X-ray diffraction, X-ray fluorescence, X-ray absorption spectroscopy
 
-      - name: Biological assays & cell culture
-        icon: fa-solid fa-hashtag
-        keywords: "Cell culture (MC3T3-E1, L929), cytotoxicity assay, cell proliferation assay, fluorescence microscopy"
+      - label: Biological assays & cell culture
+        details: Cell culture (MC3T3-E1, L929), cytotoxicity assay, cell proliferation assay, fluorescence microscopy
 
     Languages:
-      - name: Korean
-        summary: "Native speaker"
+      - label: Korean
+        details: Native speaker
 
-      - name: English
-        summary: "Fluent"
+      - label: English
+        details: Fluent
 
     Interests:
-      - name: Materials Science and Engineering
-        icon: fa-solid fa-tag
-        keywords: "Nanomaterials, Self-assembly, Ceramics, Biomaterials, Fracture Mechanics"
+      - label: Materials Science and Engineering
+        details: Nanomaterials, Self-assembly, Ceramics, Biomaterials, Fracture Mechanics
 
     Certificates:
       - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+        date: "2018-01-01"
+        location: Stanford University
 
     Projects:
       - name: Quantum Computing
@@ -167,10 +156,9 @@ cv:
         highlights:
           - Quantum Teleportation
           - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+        start_date: "2018-01-01"
+        end_date: "2018-01-01"
 
     References:
       - name: Jung Heon Lee, PhD
-        icon: fa-solid fa-laptop
-        reference: Jung Heon Lee is a professor at Sungkyunkwan University. He is a leading expert in the field of materials science and engineering, with a particular focus on the development of biomaterials for use in a variety of applications.
+        summary: Jung Heon Lee is a professor at Sungkyunkwan University. He is a leading expert in the field of materials science and engineering, with a particular focus on the development of biomaterials for use in a variety of applications.

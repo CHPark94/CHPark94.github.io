@@ -9,7 +9,7 @@
         <i class="{{ entry.icon }}"></i>
       {% endif %}
       <strong>{{ entry.name }}</strong>
-      <p>{{ entry.reference | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      <p>{{ entry.reference | default: entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
     </li>
   {% endfor %}
 </ul>
