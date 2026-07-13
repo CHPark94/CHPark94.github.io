@@ -3,22 +3,28 @@
 # Cover = thumbnail on /gallery/; photos = images shown inside the album page.
 
 albums:
-  - id: daily
-    title: Daily
-    description: Everyday moments
-    cover: assets/img/gallery/daily/daily_cover.jpg
+  - id: travel
+    title: Wonju, South Korea
+    description: Places
+    cover: assets/img/gallery/Wonju_South_Korea/Wonju_cover.jpg
     photos:
-      - path: assets/img/gallery/daily/daily_photo_1.jpg
-        caption: Wonju, South Korea
-      # - path: assets/img/gallery/daily/01.jpg
+      - path: assets/img/gallery/Wonju_South_Korea/Wonju_photo_1.jpg
+        caption: Korean BBQ
+      - path: assets/img/gallery/Wonju_South_Korea/Wonju_photo_2.jpg
+        caption: Going for lunch
+      # - path: assets/img/gallery/Wonju_South_Korea/Wonju_photo_3.jpg
       #   caption: Caption
 
   - id: travel
-    title: Travel
-    description: Trips and places
-    cover: assets/img/gallery/travel/travel_cover.jpg
+    title: Washington DC, USA
+    description: ACS Fall 2025
+      cover: assets/img/gallery/ACS_Fall_2025/ACS_cover.jpg
     photos:
-      - path: assets/img/gallery/travel/travel_photo_1.jpg
-        caption: Washington DC, USA
-      # - path: assets/img/gallery/travel/01.jpg
+      - path: assets/img/gallery/ACS_Fall_2025/ACS_photo_1.jpg
+        caption: Middle of Washington DC street
+      - path: assets/img/gallery/ACS_Fall_2025/ACS_photo_2.jpg
+        caption: Conference hall
+      - path: assets/img/gallery/ACS_Fall_2025/ACS_photo_3.jpg
+        caption: National Air and Space Museum
+      # - path: assets/img/gallery/ACS_Fall_2025/ACS_photo_4.jpg
       #   caption: Caption

@@ -2,7 +2,7 @@
 layout: book-review
 title: A civil action
 author: Jonathan Harr
-cover: assets/img/book_covers/A_civil_action.jpg
+cover: assets/img/book_covers/A_civil_action.jpeg
 #olid: OL43499941M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780679772675 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: Drama thriller
