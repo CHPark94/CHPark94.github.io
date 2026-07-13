@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  PhD · <a href="https://www.skku.edu" target="_blank">Sungkyunkwan University (SKKU)</a>
+  Ph.D. · <a href="https://www.skku.edu" target="_blank">Sungkyunkwan University (SKKU)</a>
 
 profile:
   align: right

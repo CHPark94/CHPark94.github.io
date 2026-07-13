@@ -1,33 +1,35 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2026-03-07 16:11:00-0400
+title: PhD dissertation defense
+date: 2026-06-08 11:00:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+I reached to my final defense to acheive doctorate's degree on engineering.
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+The long journey started from March 2020, which took 6 years and half to reach the goal line under the supervision of Prof. Jung Heon Lee. My doctorate's research focused on elucidating the organic-inorganic hybrid interface architecture of bioinspired ceramic composites using high-resolution electron microscopy. Expertise includes SEM-EDS mapping to visualize morphological and elemental distributions in hierarchical ceramic structures, and TEM analysis to investigate nanoscale interfacial features and defect structures. These structural insights are directly correlated with multi-scale mechanical behavior, from nanoscale (AFM), through microscale (nanoindentation), to macroscale (UTM, fracture toughness test), to elucidate structure-property-performance relationships in advanced ceramics.
 
-#### Hipster list
+---
+
+### Dissertation title
+
+#### Design of Site-selective Mineralization and Metallization of DNA for Structural and Functional Materials
+
+---
+
+### Committee member
 
 <ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
+    <li>Prof. Jin Woong Lee (chair)</li>
+    <li>Prof. Ho Seok Park</li>
+    <li>Prof. Eun-Ho Lee</li>
+    <li>Prof. Joohoon Kang</li>
+    <li>Prof. Jung Heon Lee (major advisor)</li>
 </ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
 
 ---
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+I appreciate all the comittee and lab members for this event.

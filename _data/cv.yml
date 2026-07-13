@@ -1,10 +1,10 @@
 cv:
   name: Cheol Hyun Park
-  label: PhD Candidate
+  label: Ph.D.
   email: qkrcjfgus@skku.edu
   location: Republic of Korea (ROK)
   image: ""
-  summary: "PhD Candidate at Sungkyunkwan University researching nanoparticle self-assembly, ceramics, biomaterials, and fracture mechanics."
+  summary: "Nanomaterials, self-assembly, ceramics, biomaterials, and fracture mechanics."
 
   address:
     street: 19 Hwasan-ro 187beon-gil, Seobu-ro
@@ -153,7 +153,7 @@ cv:
     Interests:
       - name: Materials Science and Engineering
         icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords: "Nanomaterials, Self-assembly, Ceramics, Biomaterials, Fracture Mechanics"
 
     Certificates:
       - name: Machine Learning
