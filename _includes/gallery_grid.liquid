@@ -25,22 +25,22 @@
       display: block;
     }
     .gallery-photo-card .card-body {
-      min-height: 2.5rem;
+      min-height: 2.75rem;
     }
   </style>
-  <div class="grid">
+  <div class="row">
     {% for photo in photos %}
       {% if photo.path %}
         {% assign alt_text = photo.caption | default: 'Gallery image' %}
         {% assign photo_url = photo.path | relative_url %}
-        <div class="grid-item">
-          <div class="card hoverable gallery-photo-card">
-            <a href="{{ photo_url }}" data-lightbox="{{ lightbox_group }}" data-title="{{ alt_text }}">
+        <div class="col-6 col-md-4 mb-4">
+          <div class="card hoverable h-100 gallery-photo-card">
+            <a href="{{ photo_url }}" class="text-decoration-none text-reset" data-lightbox="{{ lightbox_group }}" data-title="{{ alt_text }}">
               <div class="gallery-photo-thumb">
                 {%
                   include figure.liquid
                   path=photo.path
-                  sizes='(min-width: 768px) 250px, 90vw'
+                  sizes='(min-width: 768px) 250px, 45vw'
                   class='card-img-top'
                   alt=alt_text
                 %}
