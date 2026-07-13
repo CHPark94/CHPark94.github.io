@@ -1,15 +1,12 @@
 ---
 layout: page
-title: submenus
+title: blog
 nav: true
 nav_order: 8
 dropdown: true
 children:
   - title: bookshelf
     permalink: /books/
-  - title: divider
-  - title: blog
-    permalink: /blog/
-  - title: Gallery
+  - title: gallery
     permalink: /gallery/
 ---
