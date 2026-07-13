@@ -18,7 +18,7 @@ albums:
   - id: travel
     title: Washington DC, USA
     description: ACS Fall 2025
-      cover: assets/img/gallery/ACS_Fall_2025/ACS_cover.jpg
+    cover: assets/img/gallery/ACS_Fall_2025/ACS_cover.jpg
     photos:
       - path: assets/img/gallery/ACS_Fall_2025/ACS_photo_1.jpg
         caption: Middle of Washington DC street
