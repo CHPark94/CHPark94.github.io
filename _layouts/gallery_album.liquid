@@ -1,0 +1,40 @@
+---
+layout: default
+---
+{% if page._styles %}
+  <style type="text/css">
+    {{ page._styles }}
+  </style>
+{% endif %}
+
+{% assign album = null %}
+{% for item in site.data.gallery.albums %}
+  {% if item.id == page.album_id %}
+    {% assign album = item %}
+  {% endif %}
+{% endfor %}
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ album.title | default: page.title }}</h1>
+    {% if album.description %}
+      <p class="post-description">{{ album.description }}</p>
+    {% elsif page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <p class="mb-3">
+    <a href="{{ '/gallery/' | relative_url }}">&larr; Back to Gallery</a>
+  </p>
+
+  <article>
+    {{ content }}
+  </article>
+
+  {% if album %}
+    {% include gallery_grid.liquid photos=album.photos lightbox_group=album.id %}
+  {% else %}
+    <p class="text-muted">Album not found. Check <code>album_id</code> in the page frontmatter and <code>_data/gallery.yml</code>.</p>
+  {% endif %}
+</div>

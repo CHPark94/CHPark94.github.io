@@ -1,23 +1,29 @@
-{% if site.data.gallery and site.data.gallery.size > 0 %}
+{% assign photos = include.photos %}
+{% assign lightbox_group = include.lightbox_group | default: 'gallery' %}
+
+{% if photos and photos.size > 0 %}
   <div class="grid">
-    {% for photo in site.data.gallery %}
+    {% for photo in photos %}
       {% if photo.path %}
         {% assign alt_text = photo.caption | default: 'Gallery image' %}
+        {% assign photo_url = photo.path | relative_url %}
         <div class="grid-item">
           <div class="card hoverable">
-            {%
-              include figure.liquid
-              path=photo.path
-              caption=photo.caption
-              sizes='(min-width: 768px) 250px, 90vw'
-              class='card-img-top'
-              alt=alt_text
-            %}
+            <a href="{{ photo_url }}" data-lightbox="{{ lightbox_group }}" data-title="{{ alt_text }}">
+              {%
+                include figure.liquid
+                path=photo.path
+                caption=photo.caption
+                sizes='(min-width: 768px) 250px, 90vw'
+                class='card-img-top'
+                alt=alt_text
+              %}
+            </a>
           </div>
         </div>
       {% endif %}
     {% endfor %}
   </div>
 {% else %}
-  <p class="text-muted">사진을 추가하려면 <code>_data/gallery.yml</code> 파일을 수정하고, 이미지는 <code>assets/img/</code> 폴더에 넣어 주세요.</p>
+  <p class="text-muted">이 앨범에 아직 사진이 없습니다. <code>_data/gallery.yml</code>에 사진을 추가하세요.</p>
 {% endif %}

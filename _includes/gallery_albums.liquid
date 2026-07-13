@@ -1,0 +1,31 @@
+{% if site.data.gallery.albums and site.data.gallery.albums.size > 0 %}
+  <div class="grid">
+    {% for album in site.data.gallery.albums %}
+      {% if album.id and album.cover %}
+        {% assign album_url = album.id | prepend: '/gallery/' | append: '/' %}
+        {% assign alt_text = album.title | default: 'Album cover' %}
+        <div class="grid-item">
+          <a href="{{ album_url | relative_url }}" class="text-decoration-none text-reset">
+            <div class="card hoverable">
+              {%
+                include figure.liquid
+                path=album.cover
+                sizes='(min-width: 768px) 250px, 90vw'
+                class='card-img-top'
+                alt=alt_text
+              %}
+              <div class="card-body p-2">
+                <h3 class="card-title h5 mb-1">{{ album.title }}</h3>
+                {% if album.description %}
+                  <p class="card-text small text-muted mb-0">{{ album.description }}</p>
+                {% endif %}
+              </div>
+            </div>
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% else %}
+  <p class="text-muted">앨범을 추가하려면 <code>_data/gallery.yml</code>을 수정하세요.</p>
+{% endif %}

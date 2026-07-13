@@ -10,7 +10,8 @@ I reached to my final defense to acheive doctorate's degree on engineering.
 
 ---
 
-The long journey started from March 2020, which took 6 years and half to reach the goal line under the supervision of Prof. Jung Heon Lee. My doctorate's research focused on elucidating the organic-inorganic hybrid interface architecture of bioinspired ceramic composites using high-resolution electron microscopy. Expertise includes SEM-EDS mapping to visualize morphological and elemental distributions in hierarchical ceramic structures, and TEM analysis to investigate nanoscale interfacial features and defect structures. These structural insights are directly correlated with multi-scale mechanical behavior, from nanoscale (AFM), through microscale (nanoindentation), to macroscale (UTM, fracture toughness test), to elucidate structure-property-performance relationships in advanced ceramics.
+My PhD journey began in March 2020 and spanned just over six years under the supervision of Prof. Jung Heon Lee. My doctoral research focused on elucidating the organic–inorganic hybrid interface architecture of bioinspired ceramic composites through high-resolution electron microscopy. My expertise includes SEM–EDS mapping to visualize morphological and elemental distributions in hierarchical ceramic structures, and TEM analysis to probe nanoscale interfacial features and defect structures.
+These structural insights are directly correlated with mechanical behavior across multiple length scales — from the nanoscale (AFM), through the microscale (nanoindentation), to the macroscale (UTM, fracture toughness testing) — to establish structure–property–performance relationships in advanced ceramics.
 
 ---
 

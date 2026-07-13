@@ -2,6 +2,8 @@
 layout: gallery
 permalink: /gallery/
 title: Gallery
-description: Moments
+description: Photo albums
 nav: false
 ---
+
+Click an album to browse photos.

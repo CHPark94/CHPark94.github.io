@@ -1,10 +1,24 @@
-# 취미 / 개인 활동 사진을 추가하세요.
-# 이미지는 assets/img/ 폴더에 넣고, 아래에 경로와 설명을 추가하면 됩니다.
-# 예: path: assets/img/내사진.jpg
+# Gallery albums
+# Put images under assets/img/gallery/{album-id}/ and list them below.
+# Cover = thumbnail on /gallery/; photos = images shown inside the album page.
 
-- path: assets/img/prof_pic.jpg
-  caption: "프로필 예시 (자유롭게 수정하세요)"
-# - path: assets/img/hobby1.jpg
-#   caption: "취미 활동 1"
-# - path: assets/img/hobby2.jpg
-#   caption: "취미 활동 2"
+albums:
+  - id: daily
+    title: Daily
+    description: Everyday moments
+    cover: assets/img/gallery/daily/daily_cover.jpg
+    photos:
+      - path: assets/img/gallery/daily/daily_photo_1.jpg
+        caption: Wonju, South Korea
+      # - path: assets/img/gallery/daily/01.jpg
+      #   caption: Caption
+
+  - id: travel
+    title: Travel
+    description: Trips and places
+    cover: assets/img/gallery/travel/travel_cover.jpg
+    photos:
+      - path: assets/img/gallery/travel/travel_photo_1.jpg
+        caption: Washington DC, USA
+      # - path: assets/img/gallery/travel/01.jpg
+      #   caption: Caption
