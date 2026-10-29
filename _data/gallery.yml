@@ -37,7 +37,7 @@ albums:
     cover: assets/img/gallery/ACS_Fall_2025/ACS_cover.jpg
     photos:
       - path: assets/img/gallery/ACS_Fall_2025/ACS_photo_1.jpg
-        caption: 
+        caption:
       - path: assets/img/gallery/ACS_Fall_2025/ACS_photo_2.jpg
         caption: Presentation
       - path: assets/img/gallery/ACS_Fall_2025/ACS_photo_3.jpg
