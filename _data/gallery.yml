@@ -20,11 +20,11 @@ albums:
     photos:
       - path: assets/img/gallery/Wonju_South_Korea/Wonju_photo_1.jpg
         caption: Tennis match
-      - path: assets/img/gallery/Wonju_South_Korea/Wonju_photo_1.jpg
+      - path: assets/img/gallery/Wonju_South_Korea/Wonju_photo_2.jpg
         caption: Korean BBQ for dinner
-      - path: assets/img/gallery/Wonju_South_Korea/Wonju_photo_2.jpg
+      - path: assets/img/gallery/Wonju_South_Korea/Wonju_photo_3.jpg
         caption: Going for lunch
-      - path: assets/img/gallery/Wonju_South_Korea/Wonju_photo_2.jpg
+      - path: assets/img/gallery/Wonju_South_Korea/Wonju_photo_4.jpg
         caption: Sof tofu for lunch
       # - path: assets/img/gallery/Wonju_South_Korea/Wonju_photo_3.jpg
       #   caption: Caption
