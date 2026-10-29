@@ -11,5 +11,5 @@ started: 2026-01-01
 finished:
 released: 1995
 stars:
-status: TBD
+status: To read
 ---
