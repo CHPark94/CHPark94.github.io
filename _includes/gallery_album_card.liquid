@@ -1,0 +1,26 @@
+{% assign album_url = include.album.id | prepend: '/gallery/' | append: '/' %}
+{% assign alt_text = include.album.title | default: 'Album cover' %}
+<div class="col-6 col-md-4 mb-4">
+  <a href="{{ album_url | relative_url }}" class="text-decoration-none text-reset">
+    <div class="card hoverable h-100 gallery-album-card">
+      <div class="gallery-album-cover">
+        {%
+          include figure.liquid
+          path=include.album.cover
+          sizes='(min-width: 768px) 250px, 45vw'
+          class='card-img-top'
+          alt=alt_text
+        %}
+      </div>
+      <div class="card-body p-2">
+        <h3 class="card-title h5 mb-1">{{ include.album.title }}</h3>
+        {% if include.album.date contains '-' %}
+          <p class="card-text small text-muted mb-0">{{ include.album.date | date: '%b %d, %Y' }}</p>
+        {% endif %}
+        {% if include.album.description %}
+          <p class="card-text small text-muted mb-0">{{ include.album.description }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </a>
+</div>

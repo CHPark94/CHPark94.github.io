@@ -1,0 +1,22 @@
+{% assign row_open = false %}
+{% assign current_year = '' %}
+{% for album in rows %}
+  {% if album.id and album.cover %}
+    {% assign year = album.date | slice: 0, 4 %}
+    {% if year != current_year %}
+      {% if row_open %}
+        </div>
+      {% endif %}
+      {% if year != '' %}
+        <h3 class="gallery-year">{{ year }}</h3>
+      {% endif %}
+      <div class="row">
+        {% assign row_open = true %}
+        {% assign current_year = year %}
+    {% endif %}
+    {% include gallery_album_card.liquid album=album %}
+  {% endif %}
+{% endfor %}
+{% if row_open %}
+  </div>
+{% endif %}

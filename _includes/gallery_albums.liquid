@@ -24,36 +24,32 @@
     .gallery-album-card .card-body {
       min-height: 4.5rem;
     }
+    .gallery-year {
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      margin: 0.25rem 0 0.75rem;
+    }
   </style>
-  <div class="row">
-    {% for album in site.data.gallery.albums %}
-      {% if album.id and album.cover %}
-        {% assign album_url = album.id | prepend: '/gallery/' | append: '/' %}
-        {% assign alt_text = album.title | default: 'Album cover' %}
-        <div class="col-6 col-md-4 mb-4">
-          <a href="{{ album_url | relative_url }}" class="text-decoration-none text-reset">
-            <div class="card hoverable h-100 gallery-album-card">
-              <div class="gallery-album-cover">
-                {%
-                  include figure.liquid
-                  path=album.cover
-                  sizes='(min-width: 768px) 250px, 45vw'
-                  class='card-img-top'
-                  alt=alt_text
-                %}
-              </div>
-              <div class="card-body p-2">
-                <h3 class="card-title h5 mb-1">{{ album.title }}</h3>
-                {% if album.description %}
-                  <p class="card-text small text-muted mb-0">{{ album.description }}</p>
-                {% endif %}
-              </div>
-            </div>
-          </a>
-        </div>
+  {% if site.data.gallery.groups and site.data.gallery.groups.size > 0 %}
+    {% for group in site.data.gallery.groups %}
+      {% assign group_count = 0 %}
+      {% for album in site.data.gallery.albums %}
+        {% if album.group == group.id and album.id and album.cover %}
+          {% assign group_count = group_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      {% if group_count > 0 %}
+        <h2 class="mt-4">{{ group.title }}</h2>
+        {% assign rows = site.data.gallery.albums | where: 'group', group.id | sort: 'date' | reverse %}
+        {% include gallery_album_year_rows.liquid %}
       {% endif %}
     {% endfor %}
-  </div>
+  {% else %}
+    <h2 class="mt-4">Albums</h2>
+    {% assign rows = site.data.gallery.albums | sort: 'date' | reverse %}
+    {% include gallery_album_year_rows.liquid %}
+  {% endif %}
 {% else %}
   <p class="text-muted">앨범을 추가하려면 <code>_data/gallery.yml</code>을 수정하세요.</p>
 {% endif %}

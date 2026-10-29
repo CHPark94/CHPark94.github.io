@@ -533,7 +533,8 @@ figure.cover {
     background-color: #bdac7e;
   }
 
-  figcaption.queued {
+  figcaption.queued,
+  figcaption.to-read {
     font-family: monospace;
     color: #23212d;
     text-transform: uppercase;
