@@ -9,7 +9,7 @@ last_name: Park
 contact_note: >
   The best way to reach me is via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD Candidate at Sungkyunkwan University researching nanoparticle self-assembly,
+  Postdoctoral researcher at Sungkyunkwan University researching nanoparticle self-assembly,
   ceramics, biomaterials, and fracture mechanics.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
