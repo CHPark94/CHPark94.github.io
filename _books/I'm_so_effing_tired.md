@@ -14,7 +14,8 @@ released: 2021
 stars: 5
 status: Finished
 ---
-Book description: 
+
+Book description:
 EXHAUSTION DOESN'T HAVE TO BE YOUR NEW NORMAL.
 Discover how to conquer burnout and boost your energy with a proven plan for hormone balancing from a leading medical doctor. Ready to go from feeling effing tired to effing fantastic?
 

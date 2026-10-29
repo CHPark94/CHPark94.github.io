@@ -13,8 +13,8 @@ released: 2018
 stars:
 status: Finished
 ---
-Book description: Drawing on decades of research and a wide range of historical and global examples, from 1930s Europe to contemporary Hungary, Turkey, and Venezuela, to the American South during Jim Crow, Levitsky and Ziblatt show how democracies die. Now the question is, can our democracy be saved?
 
+Book description: Drawing on decades of research and a wide range of historical and global examples, from 1930s Europe to contemporary Hungary, Turkey, and Venezuela, to the American South during Jim Crow, Levitsky and Ziblatt show how democracies die. Now the question is, can our democracy be saved?
 
 본 책은 사실 읽기 전에도 심사숙고했다. 꽤나 민감한 정치 얘기를 담을 것으로 예상했기 때문이다. 그리고 예상이 맞았다. 미국의 정치 역사를 함께 설명하며, 현재 미국 의회의 양당 체제를 비롯한 앞으로 대통령의 역할과 미국 시민들이 어떻게 대처해야할지 이에 대한 내용을 위주로 설명하였다.
 
